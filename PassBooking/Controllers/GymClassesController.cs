@@ -10,10 +10,12 @@ using PassBooking.Models;
 
 namespace PassBooking.Controllers
 {
+    [Authorize]
     public class GymClassesController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        [AllowAnonymous]
         // GET: GymClasses
         public ActionResult Index()
         {
