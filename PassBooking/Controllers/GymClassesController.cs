@@ -20,6 +20,7 @@ namespace PassBooking.Controllers
         public ActionResult Index()
         {
             var temp = db.GymClasses.ToList();
+            
             return View(temp);
         }
 
