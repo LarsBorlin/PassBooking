@@ -19,7 +19,8 @@ namespace PassBooking.Controllers
         // GET: GymClasses
         public ActionResult Index()
         {
-            return View(db.GymClasses.ToList());
+            var temp = db.GymClasses.ToList();
+            return View(temp);
         }
 
         // GET: GymClasses/Details/5
