@@ -199,6 +199,14 @@
     <Compile Include="Migrations\201711141235186_init.Designer.cs">
       <DependentUpon>201711141235186_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711141336023_UserData.cs" />
+    <Compile Include="Migrations\201711141336023_UserData.Designer.cs">
+      <DependentUpon>201711141336023_UserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711141452414_SeedAdminUpdate.cs" />
+    <Compile Include="Migrations\201711141452414_SeedAdminUpdate.Designer.cs">
+      <DependentUpon>201711141452414_SeedAdminUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GymClass.cs" />
@@ -286,6 +294,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711141235186_init.resx">
       <DependentUpon>201711141235186_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141336023_UserData.resx">
+      <DependentUpon>201711141336023_UserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141452414_SeedAdminUpdate.resx">
+      <DependentUpon>201711141452414_SeedAdminUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
